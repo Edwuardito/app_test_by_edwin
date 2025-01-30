@@ -1,12 +1,13 @@
 import "./App.css";
+// import Login from "./components/Login";
+import Register from "./components/Register";
 
 function App() {
   return (
-    <>
-      <h1 className="w-[597px] h-[732px] bg-[#F5F5F5] rounded-[20px] font-poppins text-5xl font-medium">
-        <h1>Iniciar Sesión</h1>
-      </h1>
-    </>
+    <div className="flex justify-center">
+      {/* <Login /> */}
+      <Register />
+    </div>
   );
 }
 
